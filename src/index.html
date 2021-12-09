@@ -1,279 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eccomerce</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eccomerce</title>
-</head>
+  <body>
+    <section class="header__container">
+      <header class="header">
+        <div class="inner">
+          <div class="logo">
+            <div class="image__container">
+              <img loading="lazy" src="" alt="Google logo" id="main-logo" />
+            </div>
+          </div>
 
-<body>
-  <section class="header__container">
-    <header class="header">
-      <div class="inner">
-        <div class="logo">
+          <nav class="navBar">
+            <li>
+              <span>
+                <button class="usd__currency" id="usd-currency" disabled>
+                  USD
+                </button>
+              </span>
+            </li>
+            <li>
+              <span>
+                <button class="eur__currency" id="eur-currency">EUR</button>
+              </span>
+            </li>
+            <li>
+              <span
+                ><a href=""
+                  ><img
+                    loading="lazy"
+                    src=""
+                    class="search__logo"
+                    id="search-logo" /></a
+              ></span>
+            </li>
+            <li>
+              <span
+                ><a href=""
+                  ><img
+                    loading="lazy"
+                    src=""
+                    class="shop__logo"
+                    id="shop-logo" /></a
+              ></span>
+            </li>
+            <li>
+              <span
+                ><a href="" class="menu__button"
+                  ><img
+                    loading="lazy"
+                    src=""
+                    class="menu__logo"
+                    id="menu-logo" /></a
+              ></span>
+            </li>
+          </nav>
+        </div>
+      </header>
+    </section>
+    <section class="discount__container">
+      <div class="discount__content">
+        <div>
+          <h1 class="discount__title">Buy Waterproof</h1>
+          <h1 class="discount__title">Back Packs</h1>
+          <p class="discount__description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+            facilis, nihil culpa maxime quaerat quos delectus fuga? Ut maiores
+            fugit, architecto, nisi fuga quaerat possimus nam vel omnis numquam
+            non.
+          </p>
+
+          <div class="buy__button__container">
+            <button class="buy__button">Shop Now</button>
+          </div>
+        </div>
+        <div>
+          <img
+            loading="lazy"
+            src=""
+            class="discount__image"
+            id="discount-image"
+          />
+          <div class="discount__text">
+            <p>Up to</p>
+            <p>45%</p>
+            <p>OFF</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products__container">
+      <div class="inner-wrapper">
+        <input checked type="radio" name="slide" class="control" id="Slide1" />
+        <label for="Slide1" id="s1"></label>
+        <input type="radio" name="slide" class="control" id="Slide2" />
+        <label for="Slide2" id="s2"></label>
+        <input type="radio" name="slide" class="control" id="Slide3" />
+        <label for="Slide3" id="s3"></label>
+        <input type="radio" name="slide" class="control" id="Slide4" />
+        <label for="Slide4" id="s4"></label>
+        <div class="overflow-wrapper">
+          <img src="" class="slide" id="img1" />
+          <img src="" class="slide" id="img2" />
+          <img src="" class="slide" id="img3" />
+          <img src="" class="slide" id="img4" />
+        </div>
+      </div>
+    </section>
+
+    <div class="product__detail">
+      <p class="product__name" id="product-name"></p>
+      <span class="product__price" id="product-price"></span>
+      <span class="product__rate" id="product-rate"></span>
+      <span class="product__count" id="product-count"></span>
+    </div>
+
+    <section class="description__container">
+      <div class="description__content">
+        <div>
+          <img
+            loading="lazy"
+            src=""
+            class="description__image"
+            id="description-image"
+          />
+        </div>
+        <div>
+          <h1 class="description__title">Small Waterproof</h1>
+          <h1 class="description__title">Goods</h1>
+          <p class="description__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+            facilis, nihil culpa maxime quaerat quos delectus fuga? Ut maiores
+            fugit, architecto, nisi fuga quaerat possimus nam vel omnis numquam
+            non.
+          </p>
+          <p class="description__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            fugit architecto natus in, a non necessitatibus ut asperiores
+            aspernatur illum corrupti repellat aliquam voluptatibus maiores,
+            nemo facilis? Quos, id quae!
+          </p>
+          <div class="buy__button__description__container">
+            <button class="buy__button__description">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="description__container2">
+      <div class="description__content2">
+        <div>
+          <h1 class="description__title2">Buy Waterproof</h1>
+          <h1 class="description__title2">Back Packs</h1>
+          <p class="description__text2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+            facilis, nihil culpa maxime quaerat quos delectus fuga? Ut maiores
+            fugit, architecto, nisi fuga quaerat possimus nam vel omnis numquam
+            non.
+          </p>
+
+          <div class="buy__button__description__container2">
+            <button class="buy__button__description2">Shop Now</button>
+          </div>
+        </div>
+        <div>
+          <img
+            loading="lazy"
+            src=""
+            class="description__image2"
+            id="description-image2"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="products__container2">
+      <div class="inner-wrapper">
+        <input
+          checked
+          type="radio"
+          name="slide2"
+          class="control2"
+          id="Slide5"
+        />
+        <label for="Slide5" id="s5"></label>
+        <input type="radio" name="slide2" class="control2" id="Slide6" />
+        <label for="Slide6" id="s6"></label>
+        <input type="radio" name="slide2" class="control2" id="Slide7" />
+        <label for="Slide7" id="s7"></label>
+        <input type="radio" name="slide2" class="control2" id="Slide8" />
+        <label for="Slide8" id="s8"></label>
+        <div class="overflow-wrapper2">
+          <img src="" class="slide2" id="img5" />
+          <img src="" class="slide2" id="img6" />
+          <img src="" class="slide2" id="img7" />
+          <img src="" class="slide2" id="img8" />
+        </div>
+      </div>
+    </section>
+
+    <div class="product__detail2">
+      <p class="product__name2" id="product-name2"></p>
+      <span class="product__price2" id="product-message">For Only</span>
+      <span class="product__price2" id="product-price2"></span>
+      <span class="product__rate2" id="product-rate2"></span>
+      <span class="product__count2" id="product-count2"></span>
+    </div>
+
+    <section class="explore__container">
+      <div class="explore__content">
+        <div>
+          <h1 class="explore__title">Never Lost Spring</h1>
+          <h1 class="explore__title">Summer 2021</h1>
+          <div>
+            <img loading="lazy" src="" class="explore__image1" id="img9" />
+          </div>
+        </div>
+        <div>
+          <div>
+            <img loading="lazy" src="" class="explore__image2" id="img10" />
+          </div>
+          <h2 class="explore__subtitle">Long Pupper Jackez</h2>
+          <div class="explore__button__container">
+            <button class="explore__button">Explore Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator" />
+
+    <section class="contact__container">
+      <div class="contact__content">
+        <div>
+          <h1 class="contact__title">Newsletter</h1>
+        </div>
+        <div class="form__container">
+          <div class="contact__form">
+            <div class="male__selector">
+              <input checked type="radio" class="contact__radio" name="slide" />
+              <label class="male__label">MALE</label>
+            </div>
+            <div class="woman__selector">
+              <input type="radio" class="contact__radio" name="slide" />
+              <label class="female__label">FEMALE</label>
+            </div>
+            <input type="email" class="contact__input" placeholder="Email" />
+            <div class="contact__button__container">
+              <button class="contact__button">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator2" />
+
+    <section class="last__container">
+      <div class="last__content">
+        <div class="first__section">
           <div class="image__container">
-            <img src="assets/images/logo.png" alt="Google logo" id="main-logo">
+            <img loading="lazy" src="" id="second-logo" />
+          </div>
+          <p class="text__section">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            illum excepturi fugiat nam odit, iusto vel laboriosam sequi maxime
+            possimus!
+          </p>
+
+          <div class="icons">
+            <img loading="lazy" src="" class="fb__icon" id="fb-icon" />
+            <img loading="lazy" src="" class="pt__icon" id="pt-icon" />
+            <img loading="lazy" src="" class="ig__icon" id="ig-icon" />
           </div>
         </div>
-
-        <nav class="navBar">
-          <li>
-            <span>
-              <button class="usd__currency" id="usd-currency" disabled onclick="changeCurrency(1)">USD</button>
-            </span>
-          </li>
-          <li>
-            <span>
-              <button class="eur__currency" id="eur-currency" onclick="changeCurrency(2)">EUR</button>
-            </span>
-          </li>
-          </li>
-          <li><span><a href=""><img src="assets/images/search.png" class="search__logo" id="search-logo"></a></span></li>
-          <li><span><a href=""><img src="assets/images/shop-bag.png" class="shop__logo" id="shop-logo"></a></span></li>
-          <li><span><a href="" class="menu__button"><img src="assets/images/menu.png" class="menu__logo" id="menu-logo"></a></span>
-          </li>
-        </nav>
-      </div>
-    </header>
-  </section>
-  <section class="discount__container">
-    <div class="discount__content">
-      <div>
-        <h1 class="discount__title">Buy Waterproof</h1>
-        <h1 class="discount__title">Back Packs</h1>
-        <p class="discount__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere facilis, nihil
-          culpa maxime quaerat quos
-          delectus fuga? Ut maiores fugit, architecto, nisi fuga quaerat possimus nam vel omnis numquam non.
-        </p>
-
-        <div class="buy__button__container">
-          <button class="buy__button">Shop Now</button>
+        <div class="second__section">
+          <h1 class="service__subtitle">Services</h1>
+          <ul class="list">
+            <li class="item__list">Contact</li>
+            <li class="item__list">Shipping</li>
+            <li class="item__list">Returns</li>
+            <li class="item__list">Size Guide</li>
+            <li class="item__list">Help Center</li>
+            <li class="item__list">Dealers</li>
+          </ul>
+        </div>
+        <div class="third__section">
+          <h1 class="service__subtitle">Company</h1>
+          <ul class="list">
+            <li class="item__list">About</li>
+            <li class="item__list">Product</li>
+            <li class="item__list">Responsability</li>
+            <li class="item__list">Career</li>
+            <li class="item__list">Image bank</li>
+          </ul>
+        </div>
+        <div class="fourty__section">
+          <h1 class="service__subtitle">Terms</h1>
+          <ul class="list">
+            <li class="item__list">Term & Conditions</li>
+            <li class="item__list">Privacy Policy</li>
+            <li class="item__list">Cookie Policy</li>
+          </ul>
         </div>
       </div>
-      <div>
-        <img src="assets/images/discount-image.png" class="discount__image" id="discount-image">
-        <div class="discount__text">
-          <p>Up to</p>
-          <p>45%</p>
-          <p>OFF</p>
+    </section>
+
+    <hr class="separator3" />
+
+    <section class="footer__container">
+      <div class="footer__content">
+        <div class="copyright__text">
+          <p>Copyright©Rains 2021, Design by: Tanbir</p>
+        </div>
+        <div class="design__by">
+          <p>Accept For</p>
+          <img loading="lazy" src="" class="gpay__icon" id="gpay-icon" />
+          <img loading="lazy" src="" class="ms__icon" id="ms-icon" />
+          <img loading="lazy" src="" class="p__icon" id="p-icon" />
+          <img loading="lazy" src="" class="visa__icon" id="visa-icon" />
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="products__container">
-    <div class="inner-wrapper">
-      <input checked type="radio" name="slide" class="control" id="Slide1" onclick="showProduct(0)" />
-      <label for="Slide1" id="s1"></label>
-      <input type="radio" name="slide" class="control" id="Slide2" onclick="showProduct(1)" />
-      <label for="Slide2" id="s2"></label>
-      <input type="radio" name="slide" class="control" id="Slide3" onclick="showProduct(2)" />
-      <label for="Slide3" id="s3"></label>
-      <input type="radio" name="slide" class="control" id="Slide4" onclick="showProduct(3)" />
-      <label for="Slide4" id="s4"></label>
-      <div class="overflow-wrapper">
-        <img src="" class="slide" id="img1">
-        <img src="" class="slide" id="img2">
-        <img src="" class="slide" id="img3">
-        <img src="" class="slide" id="img4">
-      </div>
-    </div>
-  </section>
-
-  <div class="product__detail">
-    <p class="product__name" id="product-name"></p>
-    <span class="product__price" id="product-price"></span>
-    <span class="product__rate" id="product-rate"></span>
-    <span class="product__count" id="product-count"></span>
-  </div>
-
-  <section class="description__container">
-    <div class="description__content">
-      <div>
-        <img src="assets/images/description-image-backpack.png" class="description__image" id="description-image">
-      </div>
-      <div>
-        <h1 class="description__title">Small Waterproof</h1>
-        <h1 class="description__title">Goods</h1>
-        <p class="description__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere facilis, nihil
-          culpa maxime quaerat quos
-          delectus fuga? Ut maiores fugit, architecto, nisi fuga quaerat possimus nam vel omnis numquam non.
-        </p>
-        <p class="description__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid fugit architecto
-          natus in, a non
-          necessitatibus ut asperiores aspernatur illum corrupti repellat aliquam voluptatibus maiores, nemo facilis?
-          Quos, id quae!
-        </p>
-        <div class="buy__button__description__container">
-          <button class="buy__button__description">Shop Now</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="description__container2">
-    <div class="description__content2">
-      <div>
-        <h1 class="description__title2">Buy Waterproof</h1>
-        <h1 class="description__title2">Back Packs</h1>
-        <p class="description__text2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere facilis, nihil
-          culpa maxime quaerat quos
-          delectus fuga? Ut maiores fugit, architecto, nisi fuga quaerat possimus nam vel omnis numquam non.
-        </p>
-
-        <div class="buy__button__description__container2">
-          <button class="buy__button__description2">Shop Now</button>
-        </div>
-      </div>
-      <div>
-        <img src="assets/images/description2-image-hoodie.png" class="description__image2" id="description-image2">
-      </div>
-    </div>
-  </section>
-
-  <section class="products__container2">
-    <div class="inner-wrapper">
-      <input checked type="radio" name="slide2" class="control2" id="Slide5" onclick="showProduct2(14)" />
-      <label for="Slide5" id="s5"></label>
-      <input type="radio" name="slide2" class="control2" id="Slide6" onclick="showProduct2(15)" />
-      <label for="Slide6" id="s6"></label>
-      <input type="radio" name="slide2" class="control2" id="Slide7" onclick="showProduct2(16)" />
-      <label for="Slide7" id="s7"></label>
-      <input type="radio" name="slide2" class="control2" id="Slide8" onclick="showProduct2(17)" />
-      <label for="Slide8" id="s8"></label>
-      <div class="overflow-wrapper2">
-        <img src="" class="slide2" id="img5">
-        <img src="" class="slide2" id="img6">
-        <img src="" class="slide2" id="img7">
-        <img src="" class="slide2" id="img8">
-      </div>
-    </div>
-  </section>
-
-  <div class="product__detail2">
-    <p class="product__name2" id="product-name2"></p>
-    <span class="product__price2" id="product-message">For Only</span>
-    <span class="product__price2" id="product-price2"></span>
-    <span class="product__rate2" id="product-rate2"></span>
-    <span class="product__count2" id="product-count2"></span>
-  </div>
-
-  <section class="explore__container">
-    <div class="explore__content">
-      <div>
-        <h1 class="explore__title">Never Lost Spring</h1>
-        <h1 class="explore__title">Summer 2021</h1>
-        <div>
-          <img src="" class="explore__image1" id="img9">
-        </div>
-      </div>
-      <div>
-        <div>
-          <img src="" class="explore__image2" id="img10">
-        </div>
-        <h2 class="explore__subtitle">Long Pupper Jackez</h2>
-        <div class="explore__button__container">
-          <button class="explore__button">Explore Now</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <hr class="separator">
-
-  <section class="contact__container">
-    <div class="contact__content">
-      <div>
-        <h1 class="contact__title">Newsletter</h1>
-      </div>
-      <div class="form__container">
-        <div class="contact__form">
-          <div class="male__selector">
-            <input checked type="radio" class="contact__radio" name="slide" />
-            <label class="male__label">MALE</label>
-          </div>
-          <div class="woman__selector">
-            <input type="radio" class="contact__radio" name="slide" />
-            <label class="female__label">FEMALE</label>
-          </div>
-          <input type="email" class="contact__input" placeholder="Email" />
-          <div class="contact__button__container">
-            <button class="contact__button">SUBSCRIBE</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <hr class="separator2">
-
-  <section class="last__container">
-    <div class="last__content">
-      <div class="first__section">
-        <div class="image__container">
-          <img src="assets/images/logo.png" id="second-logo">
-        </div>
-        <p class="text__section">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis illum excepturi
-          fugiat nam odit, iusto vel laboriosam sequi maxime possimus!
-        </p>
-
-        <div class="icons">
-          <img src="/assets/images/facebook.png" class="fb__icon" id="fb-icon">
-          <img src="/assets/images/pinterest.png" class="pt__icon" id="pt-icon">
-          <img src="/assets/images/instagram.png" class="ig__icon" id="ig-icon">
-        </div>
-      </div>
-      <div class="second__section">
-        <h1 class="service__subtitle">Services</h1>
-        <ul class="list">
-          <li class="item__list">Contact</li>
-          <li class="item__list">Shipping</li>
-          <li class="item__list">Returns</li>
-          <li class="item__list">Size Guide</li>
-          <li class="item__list">Help Center</li>
-          <li class="item__list">Dealers</li>
-        </ul>
-      </div>
-      <div class="third__section">
-        <h1 class="service__subtitle">Company</h1>
-        <ul class="list">
-          <li class="item__list">About</li>
-          <li class="item__list">Product</li>
-          <li class="item__list">Responsability</li>
-          <li class="item__list">Career</li>
-          <li class="item__list">Image bank</li>
-        </ul>
-      </div>
-      <div class="fourty__section">
-        <h1 class="service__subtitle">Terms</h1>
-        <ul class="list">
-          <li class="item__list">Term & Conditions</li>
-          <li class="item__list">Privacy Policy</li>
-          <li class="item__list">Cookie Policy</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <hr class="separator3">
-
-  <section class="footer__container">
-    <div class="footer__content">
-      <div class="copyright__text">
-        <p>Copyright©Rains 2021, Design by: Tanbir</p>
-      </div>
-      <div class="design__by">
-        <p>Accept For</p>
-        <img src="/assets/images/google-pay.png" class="gpay__icon" id="gpay-icon">
-        <img src="/assets/images/maestro.png" class="ms__icon" id="ms-icon">
-        <img src="/assets/images/paypal.png" class="p__icon" id="p-icon">
-        <img src="/assets/images/visa.png" class="visa__icon" id=visa-icon>
-      </div>
-    </div>
-  </section>
-
-</body>
-
+    </section>
+  </body>
 </html>
